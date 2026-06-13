@@ -1,3 +1,2 @@
-The-Cinammon-Book-Store-SQL/* linguist-documentation=false
-The-Cinammon-Book-Store-SQL/* linguist-vendored
+*.sql linguist-detectable=true
 
