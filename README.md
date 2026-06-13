@@ -3,6 +3,9 @@
 
 A beginner-friendly PostgreSQL project demonstrating core SQL concepts, including database design, data insertion, filtering, sorting, and table joins.
 
+## 🛠️ Tech Stack Used
+Database: PostgreSQL | Tooling: pgAdmin 4 | Language: SQL
+
 ## 🗺️ Database Architecture
 
 The project utilizes three tables: `authors`, `books`, and `customers`. The `books` table establishes a relationship with `authors` using a Foreign Key (`author_id`).
@@ -30,3 +33,4 @@ CREATE TABLE customers (
     email VARCHAR(100) UNIQUE,
     join_date DATE DEFAULT CURRENT_DATE
 );
+
